@@ -1,3 +1,10 @@
+.Shanna {
+    color: whitesmoke;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
 body {
     height: 100vh;
     background: radial-gradient(ellipse at bottom, rgb(246, 245, 246), rgb(182, 165, 178));
