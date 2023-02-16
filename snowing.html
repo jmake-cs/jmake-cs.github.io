@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Snowing</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="Shanna">
+            <h1>Happy Valentine's Day Shanna</h1>
+        </div>
+        <script>
+            function createSnow(){
+                const el = document.createElement("div");
+                el.classList.add("snow");
+                el.style.marginLeft = Math.floor(Math.random() * window.innerWidth) + 'px';
+                document.body.appendChild(el);
+            }
+            for (let i=0; i<300; i++){
+                createSnow()
+            }
+        </script>
+    </body>
+</html>

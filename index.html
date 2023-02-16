@@ -2,23 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Snowing</title>
-        <link rel="stylesheet" href="style.css" />
+        <title>Hello World</title>
     </head>
     <body>
-        <div class="Shanna">
-            <h1>Happy Valentine's Day Shanna</h1>
+        <header><h1>Hello, everyone!</h1></header>
+        <div class="toy project">
+            My toy projects
+            <ul>
+                <li><a href="snowing.html">snowing</a></li>
+            </ul>
         </div>
-        <script>
-            function createSnow(){
-                const el = document.createElement("div");
-                el.classList.add("snow");
-                el.style.marginLeft = Math.floor(Math.random() * window.innerWidth) + 'px';
-                document.body.appendChild(el);
-            }
-            for (let i=0; i<300; i++){
-                createSnow()
-            }
-        </script>
     </body>
 </html>
