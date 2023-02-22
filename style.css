@@ -1,4 +1,4 @@
-.Shanna {
+.Text {
     color: whitesmoke;
     height: 200px;
     display: flex;
@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background: radial-gradient(ellipse at bottom, rgb(246, 245, 246), rgb(182, 165, 178));
+    background: radial-gradient(ellipse at bottom, rgb(191, 173, 191), rgb(128, 102, 122));
     overflow: hidden
 }
 
